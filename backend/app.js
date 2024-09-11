@@ -10,7 +10,7 @@ app.use(
   })
 );
 
-app.use(express.json({ limit: "3mb" })); //setting limit to json size
+app.use(express.json({ limit: "3mb" }));
 app.use(express.urlencoded({ extended: true, limit: "3mb" }));
 
 //routes import

@@ -9,7 +9,5 @@ const router = Router();
 router.route("/register").post(registerUser);
 
 router.route("/getAllUsers").get(getAllUsers);
-// router.route("/login").post(loginUser);
-// router.route("/logout").post(verifyJWT, logoutUser);
 
 export default router;
